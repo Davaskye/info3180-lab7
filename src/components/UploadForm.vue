@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="uploadPhoto" id = 'uploadForm'>
+    <form @submit.prevent="uploadPhoto" enctype="multipart/form-data" id = 'uploadForm'>
     <h1>Upload Form</h1>
 
     <div class="form-field">
